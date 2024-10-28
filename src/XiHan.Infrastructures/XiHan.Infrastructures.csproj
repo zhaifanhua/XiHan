@@ -1,24 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\..\props\common.props" />
 
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <GenerateDocumentationFile>True</GenerateDocumentationFile>
-        <RepositoryUrl>https://github.com/XiHanFun/XiHan.Framework</RepositoryUrl>
-        <AssemblyVersion>0.4.2</AssemblyVersion>
-        <FileVersion>0.4.2</FileVersion>
-        <Title>XiHan.Infrastructures</Title>
-        <Version>0.4.2</Version>
-        <Authors>ZhaiFanhua</Authors>
-        <Copyright>Copyright © ZhaiFanhua All Rights Reserved.</Copyright>
-        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-        <Description>XiHan.Infrastructures</Description>
-        <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-        <PackageIcon>readme.png</PackageIcon>
-        <PackageReadmeFile>readme.md</PackageReadmeFile>
-        <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    </PropertyGroup>
+	<PropertyGroup>
+		<Title>XiHan.Infrastructures</Title>
+		<IsPackable>true</IsPackable>
+		<OutputType>Library</OutputType>
+	</PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Caching.CSRedis" Version="3.8.800" />
@@ -34,19 +21,5 @@
 
     <ItemGroup>
         <ProjectReference Include="..\XiHan.Utils\XiHan.Utils.csproj" />
-    </ItemGroup>
-    <ItemGroup>
-        <None Update="LICENSE">
-            <Pack>True</Pack>
-            <PackagePath>\</PackagePath>
-        </None>
-        <None Update="readme.md">
-            <Pack>True</Pack>
-            <PackagePath>\</PackagePath>
-        </None>
-        <None Update="readme.png">
-            <Pack>True</Pack>
-            <PackagePath>\</PackagePath>
-        </None>
     </ItemGroup>
 </Project>
