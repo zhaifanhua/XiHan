@@ -15,29 +15,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Main", "5.Main", "{FDE1B7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Other", "6.Other", "{B784F8FE-8075-4BDF-B380-54FDEBBD5EDB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Utils", "XiHan.Utils\XiHan.Utils.csproj", "{3977EE38-D759-4BD4-946D-B0942F385BC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Utils", "src\XiHan.Utils\XiHan.Utils.csproj", "{3977EE38-D759-4BD4-946D-B0942F385BC1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Infrastructures", "XiHan.Infrastructures\XiHan.Infrastructures.csproj", "{1B1A5F20-1960-4885-B769-FD391A0E1FF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Infrastructures", "src\XiHan.Infrastructures\XiHan.Infrastructures.csproj", "{1B1A5F20-1960-4885-B769-FD391A0E1FF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.EventBus", "XiHan.EventBus\XiHan.EventBus.csproj", "{88E73063-E56D-4EEB-81C1-40441F33AB53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.EventBus", "src\XiHan.EventBus\XiHan.EventBus.csproj", "{88E73063-E56D-4EEB-81C1-40441F33AB53}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Storage", "XiHan.Storage\XiHan.Storage.csproj", "{B18A9C22-BE1E-454F-BF04-6CD7E958EF7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Storage", "src\XiHan.Storage\XiHan.Storage.csproj", "{B18A9C22-BE1E-454F-BF04-6CD7E958EF7D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Subscriptions", "XiHan.Subscriptions\XiHan.Subscriptions.csproj", "{652F652D-1AD6-47AE-9CC4-0A75237181EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Subscriptions", "src\XiHan.Subscriptions\XiHan.Subscriptions.csproj", "{652F652D-1AD6-47AE-9CC4-0A75237181EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Models", "XiHan.Models\XiHan.Models.csproj", "{3CED79FD-74AE-4FF4-B201-F738D5E429C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Models", "src\XiHan.Models\XiHan.Models.csproj", "{3CED79FD-74AE-4FF4-B201-F738D5E429C1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Repositories", "XiHan.Repositories\XiHan.Repositories.csproj", "{364995B9-8E39-4281-BC15-F7D4236C26CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Repositories", "src\XiHan.Repositories\XiHan.Repositories.csproj", "{364995B9-8E39-4281-BC15-F7D4236C26CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Services", "XiHan.Services\XiHan.Services.csproj", "{47BE4E1E-03DF-4A63-945D-EDD3C23660D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Services", "src\XiHan.Services\XiHan.Services.csproj", "{47BE4E1E-03DF-4A63-945D-EDD3C23660D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Jobs", "XiHan.Jobs\XiHan.Jobs.csproj", "{DE7A9141-1CA5-4CCD-9826-8D531C7FFF87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.Jobs", "src\XiHan.Jobs\XiHan.Jobs.csproj", "{DE7A9141-1CA5-4CCD-9826-8D531C7FFF87}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.WebCore", "XiHan.WebCore\XiHan.WebCore.csproj", "{A90DA206-79D6-4925-92F1-1510FECED1BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.WebCore", "src\XiHan.WebCore\XiHan.WebCore.csproj", "{A90DA206-79D6-4925-92F1-1510FECED1BC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.WebHost", "XiHan.WebHost\XiHan.WebHost.csproj", "{4C00412E-4CB4-44D7-B97F-8863CC10538D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiHan.WebHost", "src\XiHan.WebHost\XiHan.WebHost.csproj", "{4C00412E-4CB4-44D7-B97F-8863CC10538D}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EA13005B-46FF-41CE-B3DC-11C69530A11A}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "src\docker-compose.dcproj", "{EA13005B-46FF-41CE-B3DC-11C69530A11A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
