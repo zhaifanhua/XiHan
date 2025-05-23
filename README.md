@@ -1,5 +1,3 @@
-![LOGO](LOGO.png)
-
 ![license-MIT](https://img.shields.io/badge/license-MIT-blue.svg?longCache=true&style=flat-square) 
 
 本项目已合并至 [XiHan.Framework](https://github.com/XiHanFun/XiHan.Framework) 和 [XiHan.UI](https://github.com/XiHanFun/XiHan.UI) 继续维护
